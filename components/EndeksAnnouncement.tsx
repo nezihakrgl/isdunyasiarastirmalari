@@ -60,13 +60,13 @@ export default function EndeksAnnouncement() {
                   </span>{" "}
                   için{" "}
                   <span className="font-semibold text-slate-900">
-                    “Yılın Zirvedekiler Global İş İnsanı Prestij Ödülü”
+                    “Global Çapta Yılın İş İnsanı Ödülü”
                   </span>{" "}
                   uygun görülürken,{" "}
                   <span className="font-semibold text-slate-900">Baykar</span>{" "}
                   için{" "}
                   <span className="font-semibold text-slate-900">
-                    “Yılın Küresel Milli Gurur”
+                    “Küresel Çapta Yılın En İyi Şirketi”
                   </span>{" "}
                   unvanı değerlendirme sonucu uygun görülmüştür.
                 </p>
@@ -87,10 +87,10 @@ export default function EndeksAnnouncement() {
                     </div>
                     <div>
                       <p className="text-sm font-semibold text-slate-900">
-                        Yılın İş İnsanı
+                        Global Çapta Yılın İş İnsanı Ödülü
                       </p>
                       <p className="text-sm text-slate-600">
-                        Yılın Zirvedekiler Global İş İnsanı Prestij Ödülü
+                       
                       </p>
                     </div>
                   </div>
@@ -103,10 +103,10 @@ export default function EndeksAnnouncement() {
                     </div>
                     <div>
                       <p className="text-sm font-semibold text-slate-900">
-                        Yılın İşletmesi
+                       Küresel Çapta Yılın En İyi Şirketi
                       </p>
                       <p className="text-sm text-slate-600">
-                        Yılın Küresel Milli Gurur
+                        
                       </p>
                     </div>
                   </div>
