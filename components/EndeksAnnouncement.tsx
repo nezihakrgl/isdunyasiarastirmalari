@@ -24,13 +24,13 @@ export default function EndeksAnnouncement() {
             {/* Görsel */}
             <div className="relative h-56 sm:h-72 lg:col-span-5 lg:h-full min-h-[280px]">
               <Image
-  src="https://im.haberturk.com/l/2022/12/22/ver1671697211/3549562/jpg/1200x628"
-  alt="Baykar ve Selçuk Bayraktar – Endeks Değerlendirme Duyurusu"
-  fill
-  className="object-cover"
-  sizes="(max-width: 1024px) 100vw, 40vw"
-  priority
-/>
+                src="https://im.haberturk.com/l/2022/12/22/ver1671697211/3549562/jpg/1200x628"
+                alt="Baykar ve Selçuk Bayraktar – Endeks Değerlendirme Duyurusu"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 40vw"
+                priority
+              />
               {/* Hafif overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/35 via-transparent to-transparent" />
               {/* Etiket */}
@@ -47,27 +47,34 @@ export default function EndeksAnnouncement() {
               </p>
 
               <h3 className="mt-2 text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-900">
-                2026 Dönemi İlk Endeks Sonuçları
+                2026 Dönemi İlk Endeks Değerlendirmesi
               </h3>
 
               <div className="mt-5 space-y-4 text-[15px] leading-relaxed text-slate-700">
                 <p>
-                  Endeksimize katılmaya hak kazanan her işletme/iş insanına başarı
-                  kategorisine göre sunulacak olan ödüllerden, endeksimize girmeye
-                  hak kazanan Sn. Bayraktar&apos;a{" "}
+                  Başarı ve güven odaklı endeks değerlendirmemiz kapsamında; ilgili
+                  kategori kriterleri, veri temelli analizler, algısal ölçümler ve geri
+                  bildirimler birlikte ele alınmıştır. Bu çerçevede{" "}
+                  <span className="font-semibold text-slate-900">
+                    Selçuk Bayraktar
+                  </span>{" "}
+                  için{" "}
                   <span className="font-semibold text-slate-900">
                     “Yılın Zirvedekiler Global İş İnsanı Prestij Ödülü”
                   </span>{" "}
-                  uygun görülürken, Baykar şirketi de{" "}
+                  uygun görülürken,{" "}
+                  <span className="font-semibold text-slate-900">Baykar</span>{" "}
+                  için{" "}
                   <span className="font-semibold text-slate-900">
-                    “Yılın Küresel Milli Gururu”
+                    “Yılın Küresel Milli Gurur”
                   </span>{" "}
-                  ödülünü almaya hak kazandı.
+                  unvanı değerlendirme sonucu uygun görülmüştür.
                 </p>
 
                 <p className="text-sm text-slate-500">
-                  Bu duyuru; veri temelli analizler, algısal değerlendirmeler ve
-                  geri bildirimler dikkate alınarak hazırlanmıştır.
+                  Bu duyuru; endeks metodolojisi kapsamında yürütülen çok boyutlu
+                  değerlendirme çıktılarının kamuoyuna bilgilendirme amacıyla
+                  paylaşılmasıdır.
                 </p>
               </div>
 
