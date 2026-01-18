@@ -7,8 +7,9 @@ const navItems = [
   { label: "Ne Yapıyoruz?", href: "#ne-yapiyoruz" },
   { label: "Endeks", href: "#endeks" },
   { label: "Hakkımızda", href: "#hakkimizda" },
+   { label: "Başkan’dan Mesaj", href: "#baskandan-mesaj" },
   { label: "SSS", href: "#sss" },
-  { label: "Başkan’dan Mesaj", href: "#baskandan-mesaj" },
+
 ];
 
 export default function Header() {
