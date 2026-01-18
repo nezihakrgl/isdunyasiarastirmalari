@@ -49,7 +49,7 @@ export default function Hero() {
 
             <span className="text-xs text-white/70 leading-snug">
               Yılın işletmeleri ve iş insanları için güven endeksi verileri çok
-              yakında açıklanıyor.
+              yakında kamuoyu ile paylaşılacaktır.
             </span>
           </div>
         </div>
