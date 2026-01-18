@@ -6,6 +6,7 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-16">
         {/* Üst kısım */}
         <div className="grid gap-10 text-center md:grid-cols-3 md:text-left">
+          
           {/* Kurum */}
           <div>
             <h3 className="text-xl font-semibold">
@@ -17,41 +18,41 @@ export default function Footer() {
           </div>
 
           {/* İletişim */}
-<div>
-  <h4 className="mb-4 text-lg font-semibold">İletişim</h4>
+          <div>
+            <h4 className="mb-4 text-lg font-semibold">İletişim</h4>
 
-  <ul className="space-y-3 text-sm text-white/70">
-    {/* Telefonlar: tek başlık + alt alta numaralar */}
-    <li className="flex items-start gap-3">
-      <Phone className="mt-0.5 h-4 w-4 shrink-0 text-blue-400" />
-      <div className="space-y-2">
-        <div className="text-white/80">Telefon</div>
+            {/* 🆕 Çalışma Ofisi etiketi */}
+            <p className="mb-3 text-sm font-medium text-white/80">
+              Çalışma Ofisi
+            </p>
 
-        <a href="tel:+905314269888" className="block hover:text-white transition">
-          +90 531 426 98 88
-        </a>
-        <a href="tel:+905316250899" className="block hover:text-white transition">
-          +90 531 625 08 99
-        </a>
-        <a href="tel:+905421136403" className="block hover:text-white transition">
-          +90 542 113 64 03
-        </a>
-      </div>
-    </li>
+            <ul className="space-y-3 text-sm text-white/70">
+              <li className="flex items-center gap-3">
+                <Phone className="h-4 w-4 text-blue-400" />
+                <span>+90 531 426 98 88</span>
+              </li>
 
-    {/* Mail */}
-    <li className="flex items-start gap-3">
-      <Mail className="mt-0.5 h-4 w-4 shrink-0 text-blue-400" />
-      <a
-        href="mailto:isdunyasiarastirmalari@gmail.com"
-        className="hover:text-white transition break-all"
-      >
-        isdunyasiarastirmalari@gmail.com
-      </a>
-    </li>
-  </ul>
-</div>
+              <li className="flex items-center gap-3">
+                <Phone className="h-4 w-4 text-blue-400" />
+                <span>+90 531 625 08 99</span>
+              </li>
 
+              <li className="flex items-center gap-3">
+                <Phone className="h-4 w-4 text-blue-400" />
+                <span>+90 542 113 64 03</span>
+              </li>
+
+              <li className="flex items-center gap-3">
+                <Mail className="h-4 w-4 text-blue-400" />
+                <a
+                  href="mailto:isdunyasiarastirmalari@gmail.com"
+                  className="hover:text-white transition"
+                >
+                  isdunyasiarastirmalari@gmail.com
+                </a>
+              </li>
+            </ul>
+          </div>
 
           {/* Adres */}
           <div>
