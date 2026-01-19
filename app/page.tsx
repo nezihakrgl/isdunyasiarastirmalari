@@ -11,7 +11,6 @@ import PresidentMessage from "@/components/PresidentMessage";
 import EndeksBanner from "@/components/EndeksBanner";
 import EndeksAnnouncement from "@/components/EndeksAnnouncement";
 
-
 export default function HomePage() {
   return (
     <>
@@ -31,12 +30,10 @@ export default function HomePage() {
         <section id="baskandan-mesaj" className="scroll-mt-24">
           <PresidentMessage />
         </section>
-<EndeksBanner />
 
-{/* 🆕 HABER / DUYURU BURADA */}
-<EndeksAnnouncement />
+        <EndeksBanner />
+        <EndeksAnnouncement />
 
-       
         <section id="neden" className="scroll-mt-24">
           <WhySection />
         </section>

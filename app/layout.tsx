@@ -13,12 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.isdunyasiarastirmalari.com"),
+
   title: {
     default: "İş Dünyası Araştırmaları | Başarı ve Güven Endeksi",
     template: "%s | İş Dünyası Araştırmaları",
   },
+
   description:
     "İş Dünyası Araştırmaları; işletmeler ve iş insanları için başarı ve güven odaklı, veri temelli bağımsız endeks ve değerlendirme çalışmaları yürütür.",
+
   keywords: [
     "iş dünyası araştırmaları",
     "başarı ve güven endeksi",
@@ -28,21 +32,25 @@ export const metadata: Metadata = {
     "güven endeksi",
     "iş dünyası analizleri",
   ],
+
   authors: [{ name: "İş Dünyası Araştırmaları Topluluğu" }],
   creator: "İş Dünyası Araştırmaları Topluluğu",
   publisher: "İş Dünyası Araştırmaları Topluluğu",
+
   robots: {
     index: true,
     follow: true,
   },
+
   alternates: {
-    canonical: "https://isdunyasiarastirmalari.com",
+    canonical: "https://www.isdunyasiarastirmalari.com",
   },
+
   openGraph: {
     title: "İş Dünyası Araştırmaları | Başarı ve Güven Endeksi",
     description:
       "İş insanları ve işletmeler için başarı ve güven odaklı, veri temelli endeks ve değerlendirme çalışmaları.",
-    url: "https://isdunyasiarastirmalari.com",
+    url: "https://www.isdunyasiarastirmalari.com",
     siteName: "İş Dünyası Araştırmaları",
     locale: "tr_TR",
     type: "website",
@@ -51,12 +59,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="tr">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         {children}
       </body>
     </html>
