@@ -13,35 +13,39 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://isdunyasiarastirmalari.com"),
   title: {
     default: "İş Dünyası Araştırmaları | Başarı ve Güven Endeksi",
     template: "%s | İş Dünyası Araştırmaları",
   },
   description:
-    "İş Dünyası Araştırmaları Topluluğu; işletmeler ve iş insanları için başarı, güven ve itibar odaklı bağımsız değerlendirme ve endeks çalışmaları yürütür.",
+    "İş Dünyası Araştırmaları; işletmeler ve iş insanları için başarı ve güven odaklı, veri temelli bağımsız endeks ve değerlendirme çalışmaları yürütür.",
+  keywords: [
+    "iş dünyası araştırmaları",
+    "başarı ve güven endeksi",
+    "iş insanları",
+    "işletme endeksi",
+    "kurumsal itibar",
+    "güven endeksi",
+    "iş dünyası analizleri",
+  ],
+  authors: [{ name: "İş Dünyası Araştırmaları Topluluğu" }],
+  creator: "İş Dünyası Araştırmaları Topluluğu",
+  publisher: "İş Dünyası Araştırmaları Topluluğu",
+  robots: {
+    index: true,
+    follow: true,
+  },
   alternates: {
-    canonical: "https://isdunyasiarastirmalari.com/",
+    canonical: "https://isdunyasiarastirmalari.com",
   },
   openGraph: {
     title: "İş Dünyası Araştırmaları | Başarı ve Güven Endeksi",
     description:
-      "İşletmeler ve iş insanları için başarı ve güven odaklı bağımsız değerlendirme ve endeks yaklaşımı.",
-    url: "https://isdunyasiarastirmalari.com/",
+      "İş insanları ve işletmeler için başarı ve güven odaklı, veri temelli endeks ve değerlendirme çalışmaları.",
+    url: "https://isdunyasiarastirmalari.com",
     siteName: "İş Dünyası Araştırmaları",
     locale: "tr_TR",
     type: "website",
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-      "max-video-preview": -1,
-    },
   },
 };
 
